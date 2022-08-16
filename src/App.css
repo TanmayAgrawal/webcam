@@ -1,16 +1,28 @@
 .display {
-  height: 40%;
+  position: relative;
+  height: auto;
+  width: 100%
 }
 .live {
-  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 47%;
+  height: auto;
+  z-index: 9
 }
 .image {
-  width: 50%;
+  position: absolute;
+  left: 53%;
+  width: 47%;
+  height: auto;
+  z-index: 9;
 }
 
 .buttonBar {
   position: absolute;
-  top: 80%;
+  top: 85%;
+  height: auto;
 }
 .button {
   position: relative;
